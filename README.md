@@ -11,8 +11,14 @@ AI-generated texts have become increasingly prevalent across diverse industries,
 
 Developed a machine learning model using scikit-learn, implementing ensemble techniques, PCA, correlation analysis, and extensive feature engineering. The goal was to classify documents as either human-generated (0) or AI-generated (1) based on document embeddings, word count, and punctuation.
 
+## Requirements
+- Python 3.8 or higher
+- Jupyter Notebook or Google Colab
 
-## Exploratory Data Analysis (EDA)
+
+## Usage
+
+### Exploratory Data Analysis (EDA)
 In the EDA phase, we analyze the dataset using the following visualizations and statistics:
 
 Distribution of the target variable (ind): Understand the imbalance in the dataset.
@@ -22,7 +28,7 @@ Correlation heatmap of document embeddings: Identify relationships between diffe
 PCA and t-SNE visualizations of document embeddings: Reduce dimensions to visualize the embeddings in 2D space.
 
 
-## Data Preparation
+### Data Preparation
 During data preparation:
 
 - Feature Engineering: Create additional features such as average word length and number of unique words.
@@ -30,8 +36,8 @@ During data preparation:
 - Class Imbalance Handling: Use techniques like SMOTE to balance the classes in the training set.
 
 
-## Model Training and Evaluation
-### We train the following models:
+### Model Training and Evaluation
+#### We train the following models:
 
 - Logistic Regression
 - Random Forest
@@ -41,7 +47,7 @@ During data preparation:
 - AutoML/ TPOT
 
 
-### For evaluation, we:
+#### For evaluation, we:
 
 - Generate learning curves for accuracy and loss.
 - Create confusion matrices.
@@ -50,9 +56,9 @@ During data preparation:
 - Generate Permutation Importance
 - Create Partial Dependence Plots
 
-## Results
+### Results
 The results section in AI_Generated_Text_Detection_Project.ipynb provides a detailed analysis of model performance, highlighting the strengths and weaknesses of each model.
 
-## Contributing
+### Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please open an issue or submit a pull request.
 
