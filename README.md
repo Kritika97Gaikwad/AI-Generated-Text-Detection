@@ -38,6 +38,7 @@ During data preparation:
 - AdaBoost
 - SVC
 - Gradient Boosting
+- AutoML/ TPOT
 
 
 ### For evaluation, we:
@@ -50,7 +51,7 @@ During data preparation:
 - Create Partial Dependence Plots
 
 ## Results
-The results section in notebooks/modeling.ipynb provides a detailed analysis of model performance, highlighting the strengths and weaknesses of each model.
+The results section in AI_Generated_Text_Detection_Project.ipynb provides a detailed analysis of model performance, highlighting the strengths and weaknesses of each model.
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, please open an issue or submit a pull request.
